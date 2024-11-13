@@ -1,0 +1,47 @@
+/* Feature Section Enhancements */
+.features-section {
+  background-color: #ffffff;  /* White background for clean design */
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.features-section:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);  /* Elevate shadow on hover */
+}
+
+/* Gradient effect for header text */
+.gradient-text {
+  background: linear-gradient(45deg, #28a745, #218838);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+/* Feature List Styling */
+.features-list .feature-item {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.features-list .feature-item:hover {
+  background-color: #e9ecef;  /* Light grey on hover */
+  transform: scale(1.02);  /* Slight zoom on hover */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);  /* Slight shadow */
+}
+
+/* Icon Styling */
+.icon-feature {
+  font-size: 1.5rem;
+  color: #28a745;  /* Green icon */
+}
+
+/* Responsive Spacing */
+@media (max-width: 768px) {
+  .features-section, .contact-form-card {
+    margin-top: 20px;
+  }
+}

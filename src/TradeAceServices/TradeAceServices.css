@@ -1,0 +1,60 @@
+.image-box-container {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  width: 100%;
+  /* background-color: #f8f9fa; */
+}
+
+.image-box {
+  width: 350px; /* Fixed width for a square shape */
+  height: 300px; /* Fixed height to match width for a square */
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .image-box:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+} */
+
+.image-box-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; /* Fixed size for icon container */
+  height: 100px; /* Fixed size for icon container */
+  /* background-color: #f0f0f0;  */
+  border-radius: 10px; /* Optional rounded corners for icon container */
+  /* margin-bottom: 15px;  */
+}
+
+.image-box-img img,
+.image-box-img svg {
+  width: 80px; /* Icon size */
+  height: 80px;
+}
+
+.image-box-content {
+  padding: 10px;
+  
+}
+
+.image-box-title {
+  font-size: 1.25rem;
+  color: #333;
+  margin: 0;
+}
+
+.image-box-description {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}

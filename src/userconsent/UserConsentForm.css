@@ -1,0 +1,58 @@
+/* Custom Card with White Background and Shadow */
+.custom-card {
+    width: 50%;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: white; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  /* Left Aligned Labels */
+  label {
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  /* File Input Style */
+  .file-input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Submit Button Customization */
+  .submit-button {
+    background-color: #28a745; /* Green color */
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+  }
+  
+  /* Checkbox Customization */
+  .consent-checkbox input {
+    margin-right: 5px;
+    color: #ff0000; /* Red for emphasis */
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 576px) {
+    .custom-card {
+      width: 100%;
+      margin: 10px;
+    }
+  
+    .submit-button {
+      width: 100%;
+    }
+  }
+  

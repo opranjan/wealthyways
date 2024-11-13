@@ -1,0 +1,28 @@
+.hero-image {
+    background-color: #f0f0f0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .hero-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-heading {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  
+  .hero-subheading {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .hero-detail {
+    color: gray;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
